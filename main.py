@@ -1,31 +1,6 @@
 # # import datetime
 from plyer import notification
 
-
-# # today = datetime.datetime.now().strftime("%d-%m-%y")
-# # Year = datetime.datetime.now().strftime("%y")
-# # print(today)
-# # print(Year)
-
-# # if __name__ == "__main__":
-# #     notification.notify(
-# #         title="Time to Have ",
-# #         message="its better to have  than to seleep",
-# #         app_icon="/Users/tarushj.reddy/Desktop/Water/pngfuel.com-19.png",
-# #         timeout=3
-# #     )
-
-# '''this is an example system '''
-# # import os
-
-
-# # def notify(title, text):
-# #     os.system("""
-# #             osascript -e 'display notification "{Thsis jcsdojcosd}" with title "{}" sound name
-# #             {}'""".format(text, title))
-
-
-# # notify("Title", "Heres an alert")
 import pync
 import time
 import os
@@ -105,6 +80,8 @@ elif(int(waterr) > int(today)):
                 timeout=3
             )
 
+            # Random notes :)
+
     # if __name__ == "__main__":
     #     pync.notify('Hello World',
     #                 title="Omsai",
@@ -134,3 +111,29 @@ Notifier.list(os.getpid())
 # print(one/2)
 # a = str(0)
 # print(a)
+
+
+# # today = datetime.datetime.now().strftime("%d-%m-%y")
+# # Year = datetime.datetime.now().strftime("%y")
+# # print(today)
+# # print(Year)
+
+# # if __name__ == "__main__":
+# #     notification.notify(
+# #         title="Time to Have ",
+# #         message="its better to have  than to seleep",
+# #         app_icon="/Users/tarushj.reddy/Desktop/Water/pngfuel.com-19.png",
+# #         timeout=3
+# #     )
+
+# '''this is an example system '''
+# # import os
+
+
+# # def notify(title, text):
+# #     os.system("""
+# #             osascript -e 'display notification "{Thsis jcsdojcosd}" with title "{}" sound name
+# #             {}'""".format(text, title))
+
+
+# # notify("Title", "Heres an alert")
